@@ -1,21 +1,29 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage[department=space,bgcolor=dtulightblue,licolor=dtured]{dtucover}
+\usepackage[department=admin,bgcolor=dtulightblue,licolor=dtured]{dtucover}
+\usepackage{hyperref}
 
 \AtBeginDocument{
     \dtucoverThreeTiles[][]
     \dtucoverTitleText
-        [Polar ionospheric currents determined from satellite data]
-        {Assignment 1}
-        {30230\\ \vspace{0.8cm}
-        \large Data Analysis and Modeling\\ in Geoscience and Astrophysics}
-        {Jonathan Menko Hornholt\\ s143364\\ \today}
+        [Title]
+        {Subtitle}
+        {XXXXX\\ \vspace{0.8cm}
+        \large Course Name\\ Possible Extension}
+        {Full name\\ sXXXXXX\\ \today}
         \clearpage
 }
 
 \AtEndDocument{
     \clearpage
-    \dtucoverBackMatter[][][]
+    \dtucoverBackMatter[
+    Anker Engelunds Vej 1\\
+    Bygning 101A\\
+    2800 Kgs. Lyngby\\
+    \href{tel:45252525}{Tlf. 4525 2525}\\
+    \href{fax:45881799}{Fax 4588 1799}\\
+    ~\\
+    \href{www.dtu.dk}{www.dtu.dk}][][]
 }
     
 \begin{document}
